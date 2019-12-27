@@ -1,0 +1,80 @@
+<html>
+<head> 
+    <title>Demo</title>
+</head>
+<body>
+<style>
+    form,form *{
+        width:100%;
+        margin-top:15px;
+        padding:10px;
+        
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid blue;
+        font-size:large
+        
+    }
+    input:hover{
+        background-color:aquamarine;
+    }
+    form{
+        margin:50px;
+        font-size:large;
+    }
+    ul{
+        list-style-type:none;
+    }
+    a{
+        text-decoration: none;
+    }
+    li{
+        padding-top: 5px;
+        background-color : green;
+        width:150px;
+    }
+    img hover{
+        opacity: 1px;
+    }
+    
+</style>
+<header>
+    <div class="navbar">
+        <ul>
+            <li><a href="https://www.google.com"></a>Google</li>
+            <li><a href="https://www.github.com"></a>Github</li>
+            
+        </ul>
+
+    </div>
+    
+</header>
+<img src="i10.jpg" width="400" height="300">
+<form action="table.html">
+Enter user id<input type="number" required placeholder="enter id"><br>
+Enter email<input type="email" id="temail" required placeholder="enter email"><br>
+Enter Address:
+<textarea id="taddress"></textarea><br>
+select gender:
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="male">Male
+<br>
+Language(s) known:
+<input type="checkbox" name="cblang" value="english"> English
+<input type="checkbox" name="cblang" value="hindi"> Hindi
+<input type="checkbox" name="cblang" value="kannada"> kannada
+<br>
+Country:<select>
+<option>India</option>
+<option>USA</option>
+<option>Srilanka</option>
+<option>China</option>
+</select>
+<br>
+Enter dob:<input type="date">
+<input type="submit" value="Enter Data">
+<input type="reset" value="Reset Data">
+</form>
+</body>
+</html>
